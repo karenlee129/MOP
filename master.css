@@ -188,3 +188,105 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* FEATURES *********************************************************************/
+#FeaturesContainer {
+	border-width: 5px solid black;
+	text-align: center;
+	margin: 0 auto 0;
+	width: 70%;
+	min-width: 850px;
+}
+
+#break {
+	height: 5px;
+	width: 100%;
+}
+
+#FeaturesText {
+	padding: 10px;
+}
+
+#F1_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
+#F1_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F2_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F2_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
+#F3_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
+#F3_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F4_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F4_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
+#F5_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
+#F5_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F6_description {
+	background-color: #D2E8FF;
+	width: 80%;
+	height: 120px;
+	float: left;
+}
+
+#F6_title {
+	background-color: #88A6FF;
+	width: 20%;
+	height: 120px;
+	float: left;
+}
