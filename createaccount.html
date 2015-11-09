@@ -1,0 +1,82 @@
+<!DOCTYPE>
+
+<html>
+<head>
+<title> Create a Free Account </title>
+<link rel = "stylesheet" type = "text/css" href = "./master.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type = "text/javascript" src = "./createaccount.js"></script>
+</head>
+
+<body>
+<div id="logo">
+		<a href=""> <img src="./mop.png"> </a>
+	</div>
+	
+	<div id="login">
+		<form>
+			<table id = "logintable">
+				<tbody>
+				<tr>
+					<td> <input name = "username" type = "text"  placeholder="Username" required /> </td>
+					<td> <input name = "password" type = "text" placeholder = "Password" required/> </td>
+       				<td> <input type = "submit" value = "Submit" /></td>
+
+				</tr>
+			</table>
+		</form>
+	</div> 
+
+	<div id="header">
+		<h1>MOP</h1>
+	</div>
+
+	<div id ="nav">
+		<ul>
+			<li><a class="nav" href="./features.html">Features</a></li>
+			<li><a class="nav" href="./review.html">Reviews</a></li>
+			<li><a class="nav" href="./support.html">Support</a></li>
+			<li><a class="nav" href="./blank.html">Business</a></li>
+			<li><a class="nav" href="./contact.html">Contact</a></li>
+		</ul>
+		<br />
+	</div>
+<!-- ***********************************************************************************************-->
+<center><h2> Create Your Free Account! <h2></center>
+<form id = "CreateAccount" action = "" method = "POST">
+	<table id = "accountinfo">
+		<tr>
+			<td> First Name </td>
+			<td> <input type = "text" name = "firstname"></td>
+		</tr>
+
+		<tr>
+			<td> Last Name </td>
+			<td> <input type = "text" name = "lastname"></td>
+		</tr>
+
+		<tr>
+			<td> E-mail </td>
+			<td> <input type = "email" name = "email"></td>
+		</tr>
+
+		<tr>
+			<td> Username </td>
+			<td> <input type = "text" name = "username"></td>
+		</tr>
+
+		<tr>
+			<td> Password </td>
+			<td> <input type = "text" name = "pass"></td>
+		</tr>
+
+		<tr>
+			<td> Confirm Password </td>
+			<td> <input type = "text" name = "confirmpass"></td>
+		</tr>
+	</table> <br />
+	<center><input id = "submit" type = "button" value = "Create Account" /></center>
+</form>
+</body>	
+
+</html>

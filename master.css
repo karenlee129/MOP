@@ -1,0 +1,190 @@
+html {
+	width: 1400px;
+	margin: auto; 
+	overflow: scroll;
+}
+
+body {
+	font-family: Sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	color: black;
+	width: auto;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 500%;
+	font-weight: bold;
+	padding:0px;
+	margin:10px 10px 20px 10px ;
+}
+
+#logo {
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+#logo a img {
+	width: 50px;
+	height: 50px;
+}
+
+#login {
+	float: right;
+	width: 50%;
+	height: 50px;
+}
+
+#logintable {
+	float: right;
+	padding: 15px;
+}
+
+
+#header {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	background-color: white;
+}
+
+#nav {
+	float: left;
+	width: 100%;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+
+li {
+		float: left;
+}
+
+#makers {
+  padding: 0px 40px;
+	font-size: large;
+}
+
+#contact {
+	float: right;
+	background-color: white;
+	vertical-align: middle;
+	font-size: large;
+        padding: 70px 216px;
+	max-width: 100%;
+}
+
+a.nav:link, a.nav:visited {
+	display: block;
+	width: 272px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #4791DA;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+a.nav:hover, a.nav:active {
+	background-color: gray;
+}
+
+#left_col {
+	background-color: white;
+	float: left;
+	width: 40%;
+	height: 600px;
+}
+
+p {
+	padding: 70px 40px;
+	font-size: large;
+}
+
+#rti {
+  padding: 20px 10px;
+}
+#buttons {
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.button {
+	background-color:#4791DA;
+	-webkit-border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:white;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+#right_col {
+	float: left;
+	width:60%;
+	height: 600px;
+	text-align: center;
+}
+#right_col-contact {
+        float: right;
+        width: 60%;
+        height: 600px;
+        text-align: center;
+	background-color: white;
+}
+
+.dashboard_example {
+	width: 90%;
+	margin: 40px auto;
+}
+
+#footer {
+	float: left;
+	clear: both;
+	width: 1380px;
+	height: 20px;
+	background-color:#4791DA;
+	padding: 10px;
+}
+
+.left { 
+  float: left; 
+}
+
+.right { 
+  float: right; 
+
+}
+#rtd {
+  width: 300px
+}
+
+/* CREATE A FREE ACCOUNT PAGE ***************************************************/
+#accountinfo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
